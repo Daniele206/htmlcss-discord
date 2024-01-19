@@ -44,6 +44,10 @@
   font-size: 27px;
 }
 
+.c-white{
+  color: white;
+}
+
 .medium-text{
   padding-bottom: 40px;
   font-weight: 800;
@@ -95,7 +99,6 @@
 .c-button{
   margin-top: 10px;
   background-color: #8EA1E1;
-  color: white;
 }
 
 #intro{
@@ -114,7 +117,6 @@
 }
 
 .head nav{
-  color: white;
   width: 60%;
   justify-content: center;
 }
@@ -142,7 +144,6 @@
   width: 70%;
   margin: auto;
   text-align: center;
-  color: white;
 }
 
 #jumbo-button{
@@ -164,7 +165,6 @@
 
 .third{
   background-color: #23272A;
-  border-bottom: 1px solid #C5C5C5;
 }
 
 .medium-box{
@@ -205,6 +205,7 @@
 .footer-up{
   padding-top: 10px;
   padding-bottom: 40px;
+  border-bottom: 1px solid #7289DA;
 }
 
 .footer-down{
@@ -212,19 +213,45 @@
 }
 
 .social{
-  background-color: #F08080;
   height: 600px;
-  width: 370px;
+  width: 31%;
+}
+
+.footer-padding{
+  padding-top: 95px;
 }
 
 .info{
-  background-color: #20B2AA;
+  line-height: 40px;
+  padding-left: 30px;
   height: 600px;
-  width: 220px;
+  width: 17.25%;
+}
+
+.footer-top{
+  color: #7289DA;
+}
+
+.list-info{
+  list-style: none;
+}
+
+.social div img{
+  height: 18px;
+}
+
+.nazione{
+  padding: 0 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.c-white i{
+  padding: 25px 10px;
 }
 
 .end{
-  background-color: #7FFFD4;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 90px;
 }
