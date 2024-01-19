@@ -13,7 +13,14 @@
 
 .debug{
   display: flex;
-  align-items: center;
+}
+
+.al-center{
+  align-items:center;
+}
+
+.al-start{
+  align-items: start;
 }
 
 .link{
@@ -25,10 +32,37 @@
   line-height: 40px;
 }
 
+.main-text{
+  font-size: 60px;
+}
+
+.medium-text-up{
+  font-size: 50px;
+}
+
+.medium-text-down{
+  font-size: 27px;
+}
+
+.medium-text{
+  padding-bottom: 40px;
+  font-weight: 800;
+  color: #23272A;
+}
+
+.min-text{
+  font-size: 20px;
+  font-weight: 600;
+  color: #23272A;
+}
+
+.padding{
+  padding-bottom: 60px;
+}
+
 .button{
   border: none;
   border-radius: 30px;
-  padding: 15px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 25px;
@@ -37,14 +71,14 @@
 
 
 .small-button{
+  padding: 10px 15px;
   font-size: 14px;
   font-weight: 700;
 }
 
 .big-button{
   font-size: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 15px 30px;
   font-weight: 600;
 }
 
@@ -55,6 +89,12 @@
 
 .b-button{
   background-color: #23272A;
+  color: white;
+}
+
+.c-button{
+  margin-top: 10px;
+  background-color: #8EA1E1;
   color: white;
 }
 
@@ -84,10 +124,6 @@
   list-style: none;
 }
 
-.padding{
-  padding: 10px;
-}
-
 .head nav ul li{
   padding: 25px;
 }
@@ -109,11 +145,6 @@
   color: white;
 }
 
-.content h1{
-  font-size: 60px;
-  padding-bottom: 60px;
-}
-
 #jumbo-button{
   padding-bottom: 160px;
 }
@@ -128,7 +159,7 @@
 }
 
 .second{
-  background-color: #D3D3D3;
+  background-color: #F6F6F6;
 }
 
 .third{
@@ -137,20 +168,38 @@
 }
 
 .medium-box{
-  background-color: #1E90FF;
-  height: 520px;
+  padding-top: 100px;
+  justify-content: center;
   width: 60%;
 }
 
 .small-box{
-  background-color: #FFC0CB;
-  height: 520px;
+  padding: 130px 90px;
   width: 40%;
 }
 
 .big-box{
-  background-color: #228B22;
-  height: 935px;
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+.big-box img{
+  width: 100%;
+}
+
+.last-title{
+  padding: 160px 0 50px 0;
+}
+
+.last-text{
+  padding: 0 160px;
+}
+
+.star{
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
 }
 
 .footer-up{
