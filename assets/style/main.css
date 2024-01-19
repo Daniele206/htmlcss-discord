@@ -2,46 +2,80 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .container{
   margin: 0 auto;
   max-width: 98%;
-  width: 1250px;
+  width: 1400px;
 }
 
 .debug{
   display: flex;
+  align-items: center;
 }
 
-header{
+.link{
+  cursor: pointer;
+}
+
+.text{
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.button{
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+
+.small-button{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.big-button{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+}
+
+.w-button{
+  background-color: white;
+  color: black;
+}
+
+.b-button{
+  background-color: #23272A;
+  color: white;
+}
+
+#intro{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+.top-intro{
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #ADD8E6;
 }
 
 .head{
-  background-color: #DAA520;
   height: 50px;
   display: flex;
 }
 
-.trat{
-  border: 2px dashed black;
-  display: flex;
-  align-items: center;
-}
-
-.trat-white{
-  border: 2px dashed white;
-  display: flex;
-  align-items: center;
-}
-
 .head nav{
-  width: 750px;
+  color: white;
+  width: 60%;
   justify-content: center;
 }
 
@@ -55,33 +89,33 @@ header{
 }
 
 .head nav ul li{
-  padding: 5px;
+  padding: 25px;
 }
 
 .block{
-  width: 250px;
+  width: 20%;
 }
 
 .flex-end{
   justify-content: flex-end;
 }
 
-.jumbotron{
-  padding: 50px;
-  background-color: #00008B;
-  border-bottom: 4px solid #ADD8E6;
-}
-
 .content{
-  background-color: #EE82EE;
-  height: 415px;
+  padding-top: 130px;
   max-width: 98%;
-  width: 945px;
+  width: 70%;
   margin: auto;
+  text-align: center;
+  color: white;
 }
 
-main{
-  background-color: #fef100;
+.content h1{
+  font-size: 60px;
+  padding-bottom: 60px;
+}
+
+#jumbo-button{
+  padding-bottom: 160px;
 }
 
 .slide{
@@ -105,13 +139,13 @@ main{
 .medium-box{
   background-color: #1E90FF;
   height: 520px;
-  width: 750px;
+  width: 60%;
 }
 
 .small-box{
   background-color: #FFC0CB;
   height: 520px;
-  width: 500px;
+  width: 40%;
 }
 
 .big-box{
@@ -136,6 +170,7 @@ main{
 
 .info{
   background-color: #20B2AA;
+  height: 600px;
   width: 220px;
 }
 
@@ -143,12 +178,4 @@ main{
   background-color: #7FFFD4;
   width: 100%;
   justify-content: space-between;
-}
-
-.button{
-  height: 35px;
-  background-color: #FFB6C1;
-  padding: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
