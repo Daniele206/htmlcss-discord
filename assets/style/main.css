@@ -246,7 +246,7 @@
   font-weight: 600;
 }
 
-.c-white i{
+.c-white>i{
   padding: 25px 10px;
 }
 
