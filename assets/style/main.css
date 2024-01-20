@@ -32,6 +32,12 @@
   line-height: 40px;
 }
 
+.d-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+}
+
 .main-text{
   font-size: 60px;
 }
@@ -41,7 +47,7 @@
 }
 
 .medium-text-down{
-  font-size: 27px;
+  font-size: 34px;
 }
 
 .c-white{
@@ -99,6 +105,7 @@
 .c-button{
   margin-top: 10px;
   background-color: #8EA1E1;
+  color: white;
 }
 
 #intro{
@@ -141,7 +148,7 @@
 .content{
   padding-top: 130px;
   max-width: 98%;
-  width: 70%;
+  width: 58%;
   margin: auto;
   text-align: center;
 }
@@ -150,13 +157,42 @@
   padding-bottom: 160px;
 }
 
-.slide{
+.rana{
   padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.mago{
+  padding-top: 70px;
+  padding-bottom: 160px;
+}
+
+.libro{
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+
+.video-call{
   padding-bottom: 50px;
 }
 
 .first{
   background-color: #FFFF;
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  flex-wrap: wrap;
+}
+
+.wave{
+  height: 100px;
+  width: 100%;
+  align-self: flex-end;
+  filter: invert(100%) sepia(4%) saturate(612%) hue-rotate(207deg) brightness(114%) contrast(93%);
+}
+
+.wave-up{
+  rotate: 180deg;
 }
 
 .second{
@@ -198,7 +234,8 @@
 .star{
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 50px;
+  background-size: 690px;
   padding-top: 100px;
 }
 
@@ -230,6 +267,7 @@
 
 .footer-top{
   color: #7289DA;
+  padding-bottom: 30px;
 }
 
 .list-info{
@@ -240,14 +278,18 @@
   height: 18px;
 }
 
+.lingua{
+  flex-wrap: wrap;
+}
+
 .nazione{
   padding: 0 0 0 4px;
   font-size: 15px;
   font-weight: 600;
 }
 
-.c-white>i{
-  padding: 25px 10px;
+.loghi>i{
+  padding: 25px 20px 0 0;
 }
 
 .end{
