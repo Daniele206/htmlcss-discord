@@ -111,6 +111,7 @@
 #intro{
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
 }
 
 .top-intro{
